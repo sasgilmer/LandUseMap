@@ -7,7 +7,7 @@ This is a map of four land use categories in Montreal, before correction for und
 
 Roofs are shown in black, roadways in blue, vegetation in green, and impervious other in red.
 
-It is important to note that the surface area seen in this map is not representitive of the final surface area of these land use types; these categories were subsequently corrected to account for systemic under-sampling within the data, but these changes are not reflected in this map. The vegetation category was also supplemented through the threshold-based classification of satellite imagery, but due to image licensing restrictions, we are not able to make that code and data public. 
+It is important to note that the surface area seen in this map is not representitive of the final surface area of these land use types; the categories were subsequently corrected to account for systemic under-sampling within the data, but these changes are not reflected in this map. The vegetation category was also supplemented through the threshold-based classification of satellite imagery, but due to image licensing restrictions, we are not able to make that code and data public. 
 ## To Run
 Open https://github.com/sasgilmer/LandUseMap/blob/main/LandUseMap.qgz in QGIS. To zoom to Montreal, right click on the Roadways layer in the Layers panel on the bottom left. Then choose the option "Zoom to Layer(s)". 
 ## Dataset Creation
