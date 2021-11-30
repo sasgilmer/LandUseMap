@@ -1,9 +1,15 @@
 # LandUseMap
 Code for paper "Quantifying the Albedo of the Montreal Island and its Potential for Increase". We used QGIS version 3.20.3-Odense to generate this map.
 ## Map Description
-This is a map of four land use categories in Montreal, before correction for under-sampling. Land use is divided into four types: (1) roofs; (2) roadways, not including roadside parking or shoulders; (3) vegetation; and (4) impervious other. Impervious other is defined as all land uses which do not fall into the first three categories. This encompasses variety of man-made features including sidewalks, construction areas, railways, etc. It is important to note that the surface area seen in this map is not representitive of the final surface area of these land use types; these categories were subsequently corrected to account for systemic under-sampling within the data, but these changes are not reflected in this map. The vegetation category was also supplemented through the threshold-based classification of satellite imagery, but due to image licensing restrictions, we are not able to make that code and data public. 
+This is a map of four land use categories in Montreal, before correction for under-sampling. Land use is divided into four types: (1) roofs; (2) roadways, not including roadside parking or shoulders; (3) vegetation; and (4) impervious other. Impervious other is defined as all land uses which do not fall into the first three categories. This encompasses variety of man-made features including sidewalks, construction areas, railways, etc. 
+
+<img src="Images/All_layers.png" alt="land use map" width="500"/> 
+
+Roofs are shown in black, roadways in blue, vegetation in green, and impervious other in red.
+
+It is important to note that the surface area seen in this map is not representitive of the final surface area of these land use types; these categories were subsequently corrected to account for systemic under-sampling within the data, but these changes are not reflected in this map. The vegetation category was also supplemented through the threshold-based classification of satellite imagery, but due to image licensing restrictions, we are not able to make that code and data public. 
 ## To Run
-Open https://github.com/sasgilmer/LandUseMap/blob/main/LandUseMap.qgz in QGIS. To zoom to Montreal, right click on the Roadways layer in the Layers panel on the bottom left. Then choose the option "Zoom to Layer(s)"
+Open https://github.com/sasgilmer/LandUseMap/blob/main/LandUseMap.qgz in QGIS. To zoom to Montreal, right click on the Roadways layer in the Layers panel on the bottom left. Then choose the option "Zoom to Layer(s)". 
 ## Dataset Creation
 ### Island outline
 The .shape file (.shp) for the Island of Montreal was collected from the City of Montreal’s Données ouvertes database (https://donnees.montreal.ca/ville-de-montreal/limites-terrestres). The City of Montreal has an open data policy that mandates it to disseminate much of the data it collects to the public online and under an open license, that is, one without restrictions.
